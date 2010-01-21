@@ -1,0 +1,29 @@
+<div>
+<h1>Explore#arrays</h1>
+<p>Find me in app/views/explore/arrays.html.erb</p>
+<hr />
+</div>
+
+
+<% text = ['1st', '2nd', '3rd'] -%>
+<li><%= text.join(', ') %></li>
+<br />
+<li><%= text[0] %></li>
+<li><%= text[1] %></li>
+<li><%= text[2] %></li>
+<li><%= text[3] = '4th' %></li>
+<li><%= text.join(', ') %></li>
+<br />
+<li><%= text.first %></li>
+<li><%= text.last %></li>
+<li><%= text[3] << ' (new)' %></li>
+<br />
+<li><%= text[0] = nil %></li>
+<li><%= text.join(', ') %></li>
+
+<% text.delete('3rd') %>
+<li><%= text.join(', ') %></li>
+<br /><hr />
+<% text2 = ['a', 'b', 'c'] -%>
+<li><%= text2.length %></li>
+<li><%= text2.join(' ,') %></li>

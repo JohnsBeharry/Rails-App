@@ -1,0 +1,12 @@
+<div>
+<h1>Farm#noises</h1>
+<p>Find me in app/views/farm/noises.html.erb</p>
+<hr />
+</div>
+
+
+<% for animal in @farm.animals -%>
+	<p>The <u><%= animal.class.to_s.downcase %></u> named <u><%= animal.name.capitalize %></u> says: <u><%= animal.noise %></u></p>
+<% end -%>
+
+<%= debug(@farm)%>

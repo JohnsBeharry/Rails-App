@@ -1,0 +1,37 @@
+<div>
+<h1>Explore#hashes</h1>
+<p>Find me in app/views/explore/hashes.html.erb</p>
+<hr />
+</div>
+
+<%= hash1 = {'first_name' => 'Johns', 'last_name' => 'Beharr',} %>
+
+<table border="1">
+<tr><th width="120">First Name</th><th width="120">Last Name</th></tr>
+
+
+<tr>
+<th><%= hash1['first_name'] %></th>
+<th><%= hash1['last_name'] %></th>
+</tr>
+
+<tr>
+<th><%= hash1['first_name'] %></th>
+<th><%= hash1['last_name'] = 'Beharry' %></th>
+</tr>
+
+<tr>
+<th colspan="2"><%= hash1.values_at('first_name', 'last_name').reverse.join(', ') %></th>
+</tr>
+
+<%# Important %>
+<%# Important %>
+
+<%= hash2 = {'first_name' => 'Rick', 'last_name' => 'James',} %>
+<tr>
+<th><%= hash2.values_at('first_name', 'last_name').reverse.join(', ') %></th>
+<th><%= hash1.merge(hash2).values.join(', ') %></th>
+</tr>
+
+
+</table>

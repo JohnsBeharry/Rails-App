@@ -1,0 +1,24 @@
+<h1>Editing post</h1>
+
+<% form_for(@post) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :Text %><br />
+    <%= f.text_field :Text %>
+  </p>
+  <p>
+    <%= f.label :Author %><br />
+    <%= f.text_field :Author %>
+  </p>
+  <p>
+    <%= f.label :Date %><br />
+    <%= f.date_select :Date %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @post %> |
+<%= link_to 'Back', posts_path %>

@@ -1,0 +1,25 @@
+<%# Outputs raw %>
+<b>Normal</b><br />
+<%= @my_value %><br />
+<%= @my_array %><br />
+<%= @my_hash %><br />
+<hr />
+<%# Outputs with symbols ( how you would write it )%>
+<b>Inspect</b><br />
+<%= @my_value.inspect %><br />
+<%= @my_array.inspect %><br />
+<%= @my_hash.inspect %><br />
+<hr /><%# Tells me what type %>
+<b>Type</b><br />
+<%= @my_value.type %><br />
+<%= @my_array.type %><br />
+<%= @my_hash.type %><br />
+<hr /><%# Debugging Stuff %>
+<b>Debug</b><br />
+<%= debug(@my_value) %><br />
+<%= debug(@my_array) %><br />
+<%= debug(@my_hash) %><br />
+<hr />
+<b>Params</b><br />
+<%= params.inspect %><br />
+<hr />

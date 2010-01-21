@@ -1,0 +1,1491 @@
+
+
+Processing ExploreController#iterators (for 127.0.0.1 at 2009-12-11 09:25:21) [GET]
+#I'm warning
+#I'm information, you want me *wink*
+#I'm an error
+#I'm quitting
+Rendering template within layouts/explore
+Rendering explore/iterators
+
+ActionView::TemplateError (undefined local variable or method `name' for #<ActionView::Base:0x1118680>) on line #46 of app/views/explore/iterators.html.erb:
+43: <br />
+44: <hr/><%#*** Awesome Picking out of array - (simple) %>
+45: <%  ['Johns', 'Jill', 'Jane'] -%>
+46: <% for customer in name -%>
+47: 	* (<%=customer%>)
+48: <%end-%>
+
+    app/views/explore/iterators.html.erb:46
+
+Rendered rescues/_trace (36.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExploreController#iterators (for 127.0.0.1 at 2009-12-11 09:25:38) [GET]
+#I'm warning
+#I'm information, you want me *wink*
+#I'm an error
+#I'm quitting
+Rendering template within layouts/explore
+Rendering explore/iterators
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/explore/iterators]
+
+
+Processing ExploreController#iterators (for 127.0.0.1 at 2009-12-11 09:29:29) [GET]
+Rendering template within layouts/explore
+Rendering explore/iterators
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/explore/iterators]
+
+
+Processing ExploreController#what (for 127.0.0.1 at 2009-12-11 09:29:32) [GET]
+Rendering template within layouts/explore
+Rendering explore/what
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/explore/what]
+
+
+Processing ExploreController#what (for 127.0.0.1 at 2009-12-11 09:30:11) [GET]
+Rendering template within layouts/explore
+Rendering explore/what
+Completed in 55ms (View: 53, DB: 0) | 200 OK [http://localhost/explore/what]
+
+
+Processing ExploreController#what (for 127.0.0.1 at 2009-12-11 09:32:45) [GET]
+Rendering template within layouts/explore
+Rendering explore/what
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/explore/what]
+
+
+Processing ExploreController#what (for 127.0.0.1 at 2009-12-11 09:34:03) [GET]
+Rendering template within layouts/explore
+Rendering explore/what
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/explore/what]
+
+
+Processing ExploreController#what (for 127.0.0.1 at 2009-12-11 09:36:16) [GET]
+Rendering template within layouts/explore
+Rendering explore/what
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/explore/what]
+
+
+Processing ExploreController#what (for 127.0.0.1 at 2009-12-11 09:37:09) [GET]
+Rendering template within layouts/explore
+Rendering explore/what
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/explore/what]
+
+
+Processing ExploreController#what (for 127.0.0.1 at 2009-12-11 09:37:10) [GET]
+Rendering template within layouts/explore
+Rendering explore/what
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/explore/what]
+
+
+Processing ExploreController#what (for 127.0.0.1 at 2009-12-11 09:37:53) [GET]
+Rendering template within layouts/explore
+Rendering explore/what
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/explore/what]
+
+
+Processing ExploreController#barnyard (for 127.0.0.1 at 2009-12-11 09:52:19) [GET]
+
+ActionController::UnknownAction (No action responded to barnyard. Actions: arrays, hashes, index, iterators, logical, loops, loops_blocks, ranges, strings, and what):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ExploreController#farm (for 127.0.0.1 at 2009-12-11 09:52:24) [GET]
+
+ActionController::UnknownAction (No action responded to farm. Actions: arrays, hashes, index, iterators, logical, loops, loops_blocks, ranges, strings, and what):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ExploreController#explore (for 127.0.0.1 at 2009-12-11 09:52:28) [GET]
+  Parameters: {"id"=>"farm"}
+
+ActionController::UnknownAction (No action responded to explore. Actions: arrays, hashes, index, iterators, logical, loops, loops_blocks, ranges, strings, and what):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ExploreController#farm (for 127.0.0.1 at 2009-12-11 09:52:37) [GET]
+
+ActionController::UnknownAction (No action responded to farm. Actions: arrays, hashes, index, iterators, logical, loops, loops_blocks, ranges, strings, and what):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing FarmController#index (for 127.0.0.1 at 2009-12-11 09:54:22) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: noises):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-11 09:54:25) [GET]
+Rendering farm/noises
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-11 09:58:40) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-11 10:01:28) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-11 10:03:02) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 15ms (View: 11, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-11 10:04:25) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-11 10:07:16) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 15ms (View: 11, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing ExploreController#index (for 127.0.0.1 at 2009-12-13 16:28:16) [GET]
+#I'm warning
+#I'm information, you want me *wink*
+#I'm an error
+#I'm quitting
+Rendering template within layouts/explore
+Rendering explore/index
+Completed in 85ms (View: 82, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 16:28:24) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 22ms (View: 19, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 16:30:09) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 16:30:44) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 16:31:12) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 16:31:20) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 16:31:51) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 16:33:41) [GET]
+
+NoMethodError (undefined method `info=' for #<ActiveSupport::BufferedLogger:0x17875fc>):
+  app/controllers/farm_controller.rb:5:in `noises'
+
+Rendered rescues/_trace (30.5ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#noises (for 127.0.0.1 at 2009-12-13 16:34:07) [GET]
+
+SyntaxError (/Users/chris/Sites/app/app/controllers/farm_controller.rb:7: syntax error, unexpected kEND, expecting ')'):
+  
+
+Rendered rescues/_trace (76.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#noises (for 127.0.0.1 at 2009-12-13 16:34:15) [GET]
+
+SyntaxError (/Users/chris/Sites/app/app/controllers/farm_controller.rb:7: syntax error, unexpected kEND, expecting ')'):
+  
+
+Rendered rescues/_trace (28.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#noises (for 127.0.0.1 at 2009-12-13 16:34:31) [GET]
+
+SyntaxError (/Users/chris/Sites/app/app/controllers/farm_controller.rb:6: syntax error, unexpected tIVAR, expecting ')'
+    @first_animal = @first_animal.make_noise
+                 ^):
+  
+
+Rendered rescues/_trace (29.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 16:34:41) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 56ms (View: 1, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 16:35:30) [GET]
+#@first_animal = itself + method make_noise applied
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 16:36:23) [GET]
+#@first_animal = itself + method make_noise applied
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 16:37:19) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 16:37:21) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 16:37:30) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 16:37:30) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 16:41:30) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 15ms (View: 12, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 16:46:48) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 16:49:37) [GET]
+
+NoMethodError (undefined method `noise=' for "Moo!":String):
+  app/controllers/farm_controller.rb:5:in `noises'
+
+Rendered rescues/_trace (30.8ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 16:50:40) [GET]
+
+NoMethodError (undefined method `noise=' for "Moo!":String):
+  app/controllers/farm_controller.rb:5:in `noises'
+
+Rendered rescues/_trace (31.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 16:53:40) [GET]
+
+NoMethodError (undefined method `noise=' for "Moo!":String):
+  app/controllers/farm_controller.rb:5:in `noises'
+
+Rendered rescues/_trace (78.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 16:57:11) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.noise=):
+  app/controllers/farm_controller.rb:5:in `noises'
+
+Rendered rescues/_trace (31.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 16:57:18) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.noise=):
+  app/controllers/farm_controller.rb:5:in `noises'
+
+Rendered rescues/_trace (82.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 16:57:37) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.noise=):
+  app/controllers/farm_controller.rb:5:in `noises'
+
+Rendered rescues/_trace (69.4ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 16:58:05) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.noise=):
+  app/controllers/farm_controller.rb:5:in `noises'
+
+Rendered rescues/_trace (28.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 16:58:15) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.noise=):
+  app/controllers/farm_controller.rb:5:in `noises'
+
+Rendered rescues/_trace (69.9ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 16:58:16) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.noise=):
+  app/controllers/farm_controller.rb:5:in `noises'
+
+Rendered rescues/_trace (29.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 16:58:59) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.noise=):
+  app/controllers/farm_controller.rb:5:in `noises'
+
+Rendered rescues/_trace (84.7ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 17:04:24) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 15ms (View: 12, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 17:04:30) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 17:05:44) [GET]
+
+NoMethodError (undefined method `noise' for #<Animal:0x17d2020>):
+  app/controllers/farm_controller.rb:8:in `noises'
+
+Rendered rescues/_trace (29.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 17:06:08) [GET]
+
+NoMethodError (undefined method `noise' for #<Animal:0x60a7d4>):
+  app/controllers/farm_controller.rb:8:in `noises'
+
+Rendered rescues/_trace (77.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 17:06:16) [GET]
+
+NoMethodError (undefined method `noise' for #<Animal:0x17f1858>):
+  app/controllers/farm_controller.rb:8:in `noises'
+
+Rendered rescues/_trace (29.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 17:06:35) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 17:23:20) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 15ms (View: 12, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 17:23:56) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 17:31:17) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+
+ActionView::TemplateError (undefined local variable or method `first_animal' for #<ActionView::Base:0x122c468>) on line #7 of app/views/farm/noises.html.erb:
+4: <hr />
+5: </div>
+6: 
+7: <p>The <%= first_animal %>: <%= @first_animal.noise %></p>
+8: <p>The <%= first_animal %>: <%= @first_animal.noise %></p>
+
+    app/views/farm/noises.html.erb:7
+
+Rendered rescues/_trace (37.7ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 17:31:42) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 17:32:45) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 17:33:15) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 17:34:04) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 58ms (View: 55, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 17:38:30) [GET]
+
+NameError (undefined local variable or method `first_animal' for #<FarmController:0x19dfe94>):
+  app/controllers/farm_controller.rb:12:in `noises'
+
+Rendered rescues/_trace (29.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 17:38:39) [GET]
+
+NameError (undefined local variable or method `first_animal' for #<FarmController:0x1714688>):
+  app/controllers/farm_controller.rb:12:in `noises'
+
+Rendered rescues/_trace (31.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 17:38:40) [GET]
+
+NameError (undefined local variable or method `first_animal' for #<FarmController:0xce68>):
+  app/controllers/farm_controller.rb:12:in `noises'
+
+Rendered rescues/_trace (29.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 17:38:41) [GET]
+
+NameError (undefined local variable or method `first_animal' for #<FarmController:0x1794464>):
+  app/controllers/farm_controller.rb:12:in `noises'
+
+Rendered rescues/_trace (29.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 17:38:41) [GET]
+
+NameError (undefined local variable or method `first_animal' for #<FarmController:0x5b9b90>):
+  app/controllers/farm_controller.rb:12:in `noises'
+
+Rendered rescues/_trace (79.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 17:40:30) [GET]
+
+NameError (undefined local variable or method `first_animal' for #<FarmController:0x181ad34>):
+  app/controllers/farm_controller.rb:12:in `noises'
+
+Rendered rescues/_trace (29.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 17:40:53) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 17:42:33) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 17:43:15) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 17:43:51) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 17:53:48) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 15ms (View: 12, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 17:53:58) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 17:54:13) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 17:54:29) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 18:08:55) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 20:06:05) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 15ms (View: 12, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 20:06:41) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 20:07:27) [GET]
+
+NameError (undefined local variable or method `duck' for #<FarmController:0x33a9c8>):
+  app/controllers/farm_controller.rb:17:in `noises'
+
+Rendered rescues/_trace (30.8ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 20:08:05) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 20:09:36) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 20:09:37) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 20:09:55) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 10ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 20:10:10) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 20:12:23) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 20:12:46) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 20ms (View: 13, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 20:12:48) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 20:12:49) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 10ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 20:12:58) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 10ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 20:14:19) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 20:15:23) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 14ms (View: 6, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 20:17:38) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 20:17:44) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 60ms (View: 52, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 20:18:00) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 20:18:26) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 20:18:29) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 20:18:54) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 20:18:55) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 20:20:21) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 61ms (View: 54, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 20:20:33) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 20:20:40) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 10ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 20:21:09) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 10ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 20:22:13) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 20:31:43) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/controllers/farm_controller.rb:9:in `noises'
+
+Rendered rescues/_trace (69.7ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 20:31:45) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/controllers/farm_controller.rb:9:in `noises'
+
+Rendered rescues/_trace (28.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 20:32:12) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/controllers/farm_controller.rb:9:in `noises'
+
+Rendered rescues/_trace (69.8ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 20:32:13) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/controllers/farm_controller.rb:9:in `noises'
+
+Rendered rescues/_trace (29.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:24:03) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/controllers/farm_controller.rb:9:in `noises'
+
+Rendered rescues/_trace (82.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:24:26) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/controllers/farm_controller.rb:9:in `noises'
+
+Rendered rescues/_trace (29.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:24:27) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/controllers/farm_controller.rb:9:in `noises'
+
+Rendered rescues/_trace (28.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:24:39) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/controllers/farm_controller.rb:9:in `noises'
+
+Rendered rescues/_trace (69.6ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:27:10) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/controllers/farm_controller.rb:9:in `noises'
+
+Rendered rescues/_trace (28.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:27:34) [GET]
+
+NoMethodError (undefined method `<<' for #<Farm:0x11f2bb4>):
+  app/controllers/farm_controller.rb:9:in `noises'
+
+Rendered rescues/_trace (82.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:27:39) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/controllers/farm_controller.rb:9:in `noises'
+
+Rendered rescues/_trace (29.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:28:05) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/controllers/farm_controller.rb:9:in `noises'
+
+Rendered rescues/_trace (29.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:28:18) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/controllers/farm_controller.rb:9:in `noises'
+
+Rendered rescues/_trace (29.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:28:27) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/controllers/farm_controller.rb:9:in `noises'
+
+Rendered rescues/_trace (28.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:30:01) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/controllers/farm_controller.rb:14:in `noises'
+
+Rendered rescues/_trace (30.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:30:12) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/controllers/farm_controller.rb:9:in `noises'
+
+Rendered rescues/_trace (28.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:30:22) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/controllers/farm_controller.rb:9:in `noises'
+
+Rendered rescues/_trace (79.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:30:23) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/controllers/farm_controller.rb:9:in `noises'
+
+Rendered rescues/_trace (29.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:30:31) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/controllers/farm_controller.rb:7:in `noises'
+
+Rendered rescues/_trace (79.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:31:04) [GET]
+
+NoMethodError (undefined method `animals' for []:Array):
+  app/controllers/farm_controller.rb:7:in `noises'
+
+Rendered rescues/_trace (29.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:31:10) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+
+ActionView::TemplateError (undefined method `animals' for [#<Cow:0x118fbf4 @name="Charlie", @noise="Moo!">]:Array) on line #8 of app/views/farm/noises.html.erb:
+5: </div>
+6: 
+7: 
+8: <% for animal in @farm.animals -%>
+9: 	<p>The <%= animal.class.to_s.downcase %> named <%= animal.name.capitalize %> says: <%= animal.noise %></p>
+10: <% end -%>
+11: 
+
+    app/views/farm/noises.html.erb:8
+
+Rendered rescues/_trace (36.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:31:36) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:31:44) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+
+ActionView::TemplateError (undefined method `animals' for [#<Cow:0x11eab80 @name="Charlie", @noise="Moo!">]:Array) on line #8 of app/views/farm/noises.html.erb:
+5: </div>
+6: 
+7: 
+8: <% for animal in @farm.animals -%>
+9: 	<p>The <%= animal.class.to_s.downcase %> named <%= animal.name.capitalize %> says: <%= animal.noise %></p>
+10: <% end -%>
+11: 
+
+    app/views/farm/noises.html.erb:8
+
+Rendered rescues/_trace (36.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:32:07) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+
+ActionView::TemplateError (undefined method `animals' for [#<Cow:0x173b210 @name="Charlie", @noise="Moo!">]:Array) on line #8 of app/views/farm/noises.html.erb:
+5: </div>
+6: 
+7: 
+8: <% for animal in @farm.animals -%>
+9: 	<p>The <%= animal.class.to_s.downcase %> named <%= animal.name.capitalize %> says: <%= animal.noise %></p>
+10: <% end -%>
+11: 
+
+    app/views/farm/noises.html.erb:8
+
+Rendered rescues/_trace (87.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:33:25) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+
+ActionView::TemplateError (undefined method `animals' for [#<Cow:0x1224088 @name="Charlie", @noise="Moo!">]:Array) on line #8 of app/views/farm/noises.html.erb:
+5: </div>
+6: 
+7: 
+8: <% for animal in @farm.animals -%>
+9: 	<p>The <%= animal.class.to_s.downcase %> named <%= animal.name.capitalize %> says: <%= animal.noise %></p>
+10: <% end -%>
+11: 
+
+    app/views/farm/noises.html.erb:8
+
+Rendered rescues/_trace (38.2ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:34:16) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:34:55) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:36:05) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:36:24) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:36:36) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:36:44) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:36:52) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:39:22) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:48:29) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:48:45) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 30ms (View: 19, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:48:48) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:53:21) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 20ms (View: 13, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:55:09) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 12ms (View: 3, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:56:28) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 22ms (View: 13, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:57:05) [GET]
+
+NoMethodError (undefined method `to_string' for Cow:Class):
+  app/models/farm.rb:12:in `put_in_pen'
+  app/controllers/farm_controller.rb:7:in `noises'
+
+Rendered rescues/_trace (31.2ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:57:15) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 11ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:57:27) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 11ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 21:57:44) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 11ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-13 22:00:02) [GET]
+
+SyntaxError (/Users/chris/Sites/app/app/models/farm.rb:30: syntax error, unexpected kEND, expecting $end):
+  app/controllers/farm_controller.rb:4:in `noises'
+
+Rendered rescues/_trace (33.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExploreController#strings (for 127.0.0.1 at 2009-12-14 00:57:56) [GET]
+Rendering template within layouts/explore
+Rendering explore/strings
+Completed in 44ms (View: 43, DB: 0) | 200 OK [http://localhost/explore/strings]
+
+
+Processing ExploreController#index (for 127.0.0.1 at 2009-12-17 19:18:02) [GET]
+#I'm warning
+#I'm information, you want me *wink*
+#I'm an error
+#I'm quitting
+Rendering template within layouts/explore
+Rendering explore/index
+Completed in 42ms (View: 39, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-17 19:18:07) [GET]
+
+SyntaxError (/Users/chris/Sites/app/app/models/farm.rb:33: syntax error, unexpected kEND, expecting $end):
+  app/controllers/farm_controller.rb:4:in `noises'
+
+Rendered rescues/_trace (73.4ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-17 19:23:40) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 65ms (View: 38, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-17 20:43:25) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 22ms (View: 13, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-17 21:13:09) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 22ms (View: 13, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-17 21:13:18) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 11ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-17 21:13:52) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 11ms (View: 2, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-17 21:22:47) [GET]
+
+SyntaxError (/Users/chris/Sites/app/app/models/farm.rb:29: syntax error, unexpected $end, expecting kEND):
+  app/controllers/farm_controller.rb:5:in `noises'
+
+Rendered rescues/_trace (74.1ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-17 21:23:42) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.name=):
+  app/models/farm.rb:25:in `assign_names'
+  app/models/farm.rb:24:in `each'
+  app/models/farm.rb:24:in `assign_names'
+  app/controllers/farm_controller.rb:21:in `noises'
+
+Rendered rescues/_trace (30.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-17 21:24:03) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.name=):
+  app/models/farm.rb:25:in `assign_names'
+  app/models/farm.rb:24:in `each'
+  app/models/farm.rb:24:in `assign_names'
+  app/controllers/farm_controller.rb:21:in `noises'
+
+Rendered rescues/_trace (80.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-17 21:24:19) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.name=):
+  app/models/farm.rb:25:in `assign_names'
+  app/models/farm.rb:24:in `each'
+  app/models/farm.rb:24:in `assign_names'
+  app/controllers/farm_controller.rb:21:in `noises'
+
+Rendered rescues/_trace (29.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-17 21:24:23) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.name=):
+  app/models/farm.rb:25:in `assign_names'
+  app/models/farm.rb:24:in `each'
+  app/models/farm.rb:24:in `assign_names'
+  app/controllers/farm_controller.rb:21:in `noises'
+
+Rendered rescues/_trace (80.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-17 21:24:35) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.name=):
+  app/models/farm.rb:25:in `assign_names'
+  app/models/farm.rb:24:in `each'
+  app/models/farm.rb:24:in `assign_names'
+  app/controllers/farm_controller.rb:21:in `noises'
+
+Rendered rescues/_trace (69.7ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-17 21:25:02) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 23ms (View: 14, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-17 21:25:20) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.name=):
+  app/models/farm.rb:25:in `assign_names'
+  app/models/farm.rb:24:in `each'
+  app/models/farm.rb:24:in `assign_names'
+  app/controllers/farm_controller.rb:21:in `noises'
+
+Rendered rescues/_trace (32.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-17 21:25:31) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 61ms (View: 3, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing ExploreController#index (for 127.0.0.1 at 2009-12-21 11:05:58) [GET]
+#I'm warning
+#I'm information, you want me *wink*
+#I'm an error
+#I'm quitting
+Rendering template within layouts/explore
+Rendering explore/index
+Completed in 54ms (View: 51, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-21 11:06:28) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 144ms (View: 96, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-21 11:08:09) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 12ms (View: 3, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-21 11:09:54) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 12ms (View: 3, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-21 11:09:56) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 11ms (View: 3, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-21 11:10:10) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 22ms (View: 13, DB: 0) | 200 OK [http://localhost/farm/noises]
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-21 11:10:18) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.name=):
+  app/models/farm.rb:25:in `assign_names'
+  app/models/farm.rb:24:in `each'
+  app/models/farm.rb:24:in `assign_names'
+  app/controllers/farm_controller.rb:21:in `noises'
+
+Rendered rescues/_trace (32.0ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-21 11:10:35) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.name=):
+  app/models/farm.rb:24:in `assign_names'
+  app/models/farm.rb:23:in `each'
+  app/models/farm.rb:23:in `assign_names'
+  app/controllers/farm_controller.rb:21:in `noises'
+
+Rendered rescues/_trace (32.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-21 11:10:49) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.name=):
+  app/models/farm.rb:24:in `assign_names'
+  app/models/farm.rb:23:in `each'
+  app/models/farm.rb:23:in `assign_names'
+  app/controllers/farm_controller.rb:21:in `noises'
+
+Rendered rescues/_trace (70.6ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing FarmController#noises (for 127.0.0.1 at 2009-12-21 11:11:53) [GET]
+Rendering template within layouts/farm
+Rendering farm/noises
+Completed in 23ms (View: 14, DB: 0) | 200 OK [http://localhost/farm/noises]

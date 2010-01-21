@@ -1,0 +1,48 @@
+<div>
+<h1>Explore#<%= controller.action_name %></h1>
+<p>Find me in app/views/explore/<%= controller.action_name %>.html.erb</p>
+<hr />
+</div>
+<hr/><!-- method of the number (upto) -->
+<% 2.upto(8) do |var| %>
+	Ruby (<%=var%>)
+<%end-%>
+<br />
+<hr/><!-- another method of the number (downto) -->
+<% 10.downto(1) do |mm| %>
+	Ruby (<%=mm%>)
+<%end-%>
+<br />
+<hr/><!-- for each of them do sum -->
+<% (0..10).each do |ee| %>
+	range- each (<%=ee%>)
+<%end-%>
+<br />
+<hr/><!-- stepping through numbers 10 20 30 -->
+<% (0..100).step(10) do |num| %>
+	(<%=num%>)
+<%end-%>
+<br />
+<hr/><!-- old way of itterating (barf) -->
+<% output = 1 -%>
+<% 1.upto(5) do %>
+	<%= output += output + 1 %>
+<%end-%>
+<br />
+<hr/><!-- appending an variable -->
+<% single = "" -%>
+	<% 10.downto(1) { |lol| single << "single #{lol}"} -%>
+<%= single %>,
+<br />
+<hr/><!-- Picking it out of an array -->
+<% place = ['1st', '2nd', '3rd'] -%>
+<% place.each do |place| %>
+	* (<%=place%>)
+	<%# break if name.length > 2 -%>
+<%end-%>
+<br />
+<hr/><%#*** Awesome Picking out of array - (simple) %>
+<% name = ['Johns', 'Jill', 'Jane'] -%>
+<% for customer in name -%>
+	* (<%=customer%>)
+<%end-%>
